@@ -10,7 +10,7 @@ export default function Avatar({ user, size = 40, className = '' }) {
           width: size,
           height: size,
           fontSize: size * 0.38,
-          background: '#94a3b8',
+          background: '#8a8a8a',
         }}
         aria-hidden="true"
       >

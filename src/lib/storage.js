@@ -8,9 +8,9 @@ import { hashPassword } from './auth.js'
  * `storage` event.
  */
 
-const STORAGE_KEY = 'inkwell.state.v1'
-const SESSION_KEY = 'inkwell.session.v1'
-const THEME_KEY = 'inkwell.theme.v1'
+const STORAGE_KEY = 'lumen.state.v1'
+const SESSION_KEY = 'lumen.session.v1'
+const THEME_KEY = 'lumen.theme.v1'
 
 /** Read a JSON value from localStorage, returning null on any failure. */
 function readJSON(key) {

@@ -6,7 +6,7 @@
  * the app still works when opened over plain HTTP or from disk.
  */
 
-const SALT_PREFIX = 'inkwell::'
+const SALT_PREFIX = 'lumen::'
 
 async function subtleHash(password, salt) {
   const data = new TextEncoder().encode(`${salt}${password}`)

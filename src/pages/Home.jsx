@@ -78,7 +78,7 @@ export default function Home() {
     <div className="page">
       <section className="hero">
         <div className="hero__text">
-          <h1>Stories, ideas and arguments from the Inkwell community.</h1>
+          <h1>Stories, ideas and arguments from the Lumen community.</h1>
           <p>
             {posts.length} post{posts.length === 1 ? '' : 's'} published so far.
             Read, respond, and publish your own.
@@ -143,7 +143,7 @@ export default function Home() {
           <h2>No posts found</h2>
           <p>
             {posts.length === 0
-              ? 'Be the first to publish something on Inkwell.'
+              ? 'Be the first to publish something on Lumen.'
               : 'Try a different search term or clear the filters.'}
           </p>
         </div>

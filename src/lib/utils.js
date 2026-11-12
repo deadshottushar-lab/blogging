@@ -80,10 +80,10 @@ export function makeExcerpt(content, limit = 180) {
   return `${plain.slice(0, limit).trimEnd()}…`
 }
 
-/** Pick a stable accent colour from a seed string. */
+/** Pick a stable greyscale shade from a seed string (monochrome avatars). */
 const AVATAR_COLORS = [
-  '#6366f1', '#ec4899', '#f59e0b', '#10b981',
-  '#0ea5e9', '#8b5cf6', '#ef4444', '#14b8a6',
+  '#1c1c1c', '#3d3d3d', '#5e5e5e', '#7d7d7d',
+  '#2a2a2a', '#4a4a4a', '#6b6b6b', '#8a8a8a',
 ]
 
 export function colorFor(seed) {

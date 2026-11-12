@@ -1,4 +1,4 @@
-# Inkwell — Blogging Platform
+# Lumen — Blogging Platform
 
 A complete blogging platform built with **React + Vite + JavaScript**.
 

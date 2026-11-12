@@ -28,9 +28,9 @@ export default function Navbar({ onSearch }) {
   return (
     <header className="navbar">
       <div className="navbar__inner">
-        <Link to="/" className="brand" aria-label="Inkwell home">
-          <span className="brand__mark" aria-hidden="true">✎</span>
-          <span className="brand__name">Inkwell</span>
+        <Link to="/" className="brand" aria-label="Lumen home">
+          <span className="brand__mark" aria-hidden="true">L</span>
+          <span className="brand__name">Lumen</span>
         </Link>
 
         <form className="navbar__search" role="search" onSubmit={submitSearch}>

@@ -6,7 +6,7 @@ const ThemeContext = createContext(null)
 export function ThemeProvider({ children }) {
   const [theme, setTheme] = useState(() => {
     try {
-      const stored = JSON.parse(localStorage.getItem('inkwell.theme.v1'))
+      const stored = JSON.parse(localStorage.getItem('lumen.theme.v1'))
       if (stored === 'light' || stored === 'dark') return stored
     } catch {
       /* ignore */
@@ -17,7 +17,7 @@ export function ThemeProvider({ children }) {
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
     try {
-      localStorage.setItem('inkwell.theme.v1', JSON.stringify(theme))
+      localStorage.setItem('lumen.theme.v1', JSON.stringify(theme))
     } catch {
       /* ignore */
     }

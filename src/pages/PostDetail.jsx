@@ -36,9 +36,9 @@ export default function PostDetail() {
   const isOwner = Boolean(post && user && user.id === post.authorId)
 
   useEffect(() => {
-    if (post) document.title = `${post.title} — Inkwell`
+    if (post) document.title = `${post.title} — Lumen`
     return () => {
-      document.title = 'Inkwell — Blogging Platform'
+      document.title = 'Lumen — Blogging Platform'
     }
   }, [post])
 

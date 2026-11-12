@@ -85,7 +85,7 @@ export default function Login() {
         </button>
 
         <p className="auth-card__switch">
-          New to Inkwell? <Link to="/register">Create an account</Link>
+          New to Lumen? <Link to="/register">Create an account</Link>
         </p>
       </div>
     </div>

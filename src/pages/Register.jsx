@@ -47,7 +47,7 @@ export default function Register() {
   return (
     <div className="auth-page">
       <div className="auth-card">
-        <h1 className="auth-card__title">Join Inkwell</h1>
+        <h1 className="auth-card__title">Join Lumen</h1>
         <p className="auth-card__subtitle">
           Publish your ideas and join the conversation.
         </p>

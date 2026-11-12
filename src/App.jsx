@@ -29,7 +29,7 @@ export default function App() {
     return (
       <div className="boot" role="status">
         <span className="boot__spinner" aria-hidden="true" />
-        Loading Inkwell…
+        Loading Lumen…
       </div>
     )
   }
@@ -82,7 +82,7 @@ export default function App() {
         </Routes>
       </main>
       <footer className="app-footer">
-        <span>© {new Date().getFullYear()} Inkwell</span>
+        <span>© {new Date().getFullYear()} Lumen</span>
         <span className="app-footer__dot" aria-hidden="true">·</span>
         <span>Write something worth reading.</span>
       </footer>
